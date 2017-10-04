@@ -1,0 +1,353 @@
+/*Some code are borrowed from Lab files, Lecture materials, and W3Schools.*/
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: rgb(37, 48, 54);
+  color: white;
+}
+
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid rgb(30, 31, 35);
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+section h3 {
+  margin-bottom: 0.5em;
+}
+
+section p {
+  margin-top: 0;
+}
+
+/*Dividing Line*/
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  /*border-bottom: 0.15em solid rgb(30, 31, 35);*/
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: rgb(20, 21, 35);
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.nav-button {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  color: rgb(188, 229, 208);
+  background-color: rgb(35, 35, 35);
+  border-radius: 0.15em;
+  border: 1px solid rgb(11, 196, 94);
+  font-size: 1.2rem;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.nav-button:hover, .nav-button:focus {
+  background-color: rgb(11, 196, 94);
+  color: black;
+}
+
+
+/*Styling for in-text link*/
+.in-text {
+  color: rgb(72, 249, 96);
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.in-text:hover, .in-text:focus {
+  color: rgb(172, 239, 202);
+}
+
+
+/*Styling for submit button*/
+.submit {
+  color: rgb(214, 229, 252);
+  background-color: rgb(61, 63, 66);
+  padding: 0.3em 0.9em;
+  border-radius: 0.15em;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.submit:hover, .submit:focus {
+  background-color: rgb(220, 222, 226);
+  color: black;
+}
+
+
+/*Styling for text-input*/
+.newlabel {
+  color: white;
+  padding: 0.3em 0.3em;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.newinput {
+  color: rgb(126, 130, 126);
+  background-color: rgb(69, 74, 84);
+  border: 2px solid green;
+  border-radius: 4px;
+  padding: 0.3em 0.8em;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+/*Styling for Header1*/
+.newHeader {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(204, 234, 207);
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+}
+
+
+/*Styling for Paragraph*/
+.newPara {
+  font-family: "Quann", sans-serif;
+  font-size: 1.3em;
+  color: rgb(204, 234, 207);
+}
+
+
+/*Styling for Bullet List*/
+.newBulletList {
+  font-family: "Quann", sans-serif;
+  font-size: 1.2em;
+  color: rgb(204, 234, 207);
+}
+
+
+/*Styling for Number List*/
+.newNumberList {
+  font-family: "Quann", sans-serif;
+  font-size: 1.2em;
+  color: rgb(204, 234, 207);
+}
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+/*Styling for Main Navigation Buttons*/
+.newBG {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(204, 234, 207);
+  background-color: green;
+}
+
+.nav-home {
+	display: inline-block;
+	color: white;
+	background-color: rgb(30, 31, 35);
+	font-size: 2.5rem;
+	padding: 2.25rem 4.5rem;
+	text-decoration: none;
+	transition: color 0.5s ease-out;
+}
+
+.nav-main-item {
+	display: inline-block;
+	color: white;
+	background-color: rgb(30, 31, 35);
+	font-size: 1.2rem;
+	padding: 3rem 0.1rem;
+	text-decoration: none;
+	transition: color 0.5s ease-out;
+}
+
+.nav-main-item:hover, .nav-main-item:focus {
+  color: rgb(11, 196, 94);
+}
+
+
+/*Styling for Product Listing*/
+.gameList{
+  max-width: 208px;
+  background-color: rgb(10, 31, 35);
+  margin: 2rem;
+  border: 1px solid black;
+}
+
+.gameName {
+  font-family: "Quann", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.gamePrice {
+  font-family: "Quann", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: rgb(173, 188, 211);
+
+  margin-top: -1.5rem;
+}
+
+.gamePriceLine {
+  max-width: 180px;
+  margin-left: 12px;
+  margin-top: -1.5rem;
+  border-bottom: 0.05em solid rgb(173, 188, 211);
+}
+
+.gameBuyButton {
+  font-family: "Quann", sans-serif;
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  color: rgb(188, 229, 208);
+  background-color: rgb(35, 35, 35);
+  border-radius: 0.15em;
+  border: 1px solid rgb(11, 196, 94);
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-left: 66px;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.gameBuyButton:hover, .gameBuyButton:focus {
+  background-color: rgb(11, 196, 94);
+  color: black;
+}
+
+img {
+  padding: 0.1rem 0.2rem;
+}
+
+
+/*Styling for Grid*/
+.Header-Box{
+  max-width: 100%;
+}
+
+.grid-header {
+  font-family: "Orbitron", sans-serif;
+	display: inline-block;
+	color: white;
+	background-color: rgb(25, 132, 198);
+	font-size: 2.5rem;
+	padding: 2.25rem 4.5rem;
+  text-align: center;
+
+  /*-ms-flex-grow: wrap;
+  flex-grow: wrap;*/
+}
+
+.Body-Box {
+  max-width: 100%;
+}
+
+.grid-left {
+  font-family: "Orbitron", sans-serif;
+  display: inline-block;
+  color: white;
+  background-color: rgb(25, 32, 198);
+  font-size: 2.5rem;
+  padding: 20.25rem 5.5rem;
+  text-align: center;
+
+  /*-ms-flex-grow: wrap;
+  flex-grow: wrap;*/
+}
+
+.Listing-Box {
+  max-width: 100%;
+}
+
+.grid-middle {
+  font-family: "Orbitron", sans-serif;
+  display: inline-block;
+  color: white;
+  background-color: rgb(25, 132, 98);
+  font-size: 2.5rem;
+  padding: 20.25rem 1.6rem;
+  text-align: center;
+  margin-left: 35px; /*this line makes the gap between grids*/
+
+  /*-ms-flex-grow: wrap;
+  flex-grow: wrap;*/
+}
+
+
+/*Styling for color swatches*/
+.Dark-Grey {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(30, 31, 35);
+  border: 1px solid white;
+}
+
+.Light-Grey {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(37, 48, 54);
+  border: 1px solid white;
+}
+
+.Neon-Green {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(11, 196, 94);
+  border: 1px solid white;
+}
+
+.newText {
+  padding: 1.25rem 1.5rem;
+}

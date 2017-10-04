@@ -1,0 +1,23 @@
+/*Code borrowed from week 3 lecture*/
+/*layout*/
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+
+.box {
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.box-item-nav{
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.box-item-text {
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
