@@ -348,6 +348,13 @@ img {
   border: 1px solid white;
 }
 
+.Orange {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(249, 162, 49);
+  border: 1px solid white;
+}
+
 .newText {
   padding: 1.25rem 1.5rem;
 }
