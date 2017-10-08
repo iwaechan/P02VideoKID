@@ -5,7 +5,7 @@
 */
 body {
   font-family: sans-serif;
-  padding: 2rem;
+  /*padding: 2rem;*/
   background-color: rgb(37, 48, 54);
   color: white;
 }
@@ -197,7 +197,7 @@ h1 {
 	color: white;
 	background-color: rgb(30, 31, 35);
 	font-size: 2.5rem;
-	padding: 2.25rem 4.5rem;
+	padding: 2.25rem 10.5rem;
 	text-decoration: none;
 	transition: color 0.5s ease-out;
 }
@@ -357,4 +357,95 @@ img {
 
 .newText {
   padding: 1.25rem 1.5rem;
+}
+
+
+
+/*----------------------------------------------------*/
+/*New Section For Templates Only*/
+
+.Full-width{
+  max-width: 100%;
+  padding: 1rem 10.5rem;
+}
+
+.col-4of16 {
+  max-width: 24%;
+  padding: 1rem 3rem;
+}
+
+.col-8of16 {
+  max-width: 50%;
+  padding: 1rem 3rem;
+}
+
+.col-12of16 {
+  max-width: 75%;
+  padding: 1rem 3rem;
+}
+
+.col-pushtocenter{
+  max-width: 100%;
+  margin-left: 35rem;
+}
+
+.login-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-left: 7.2rem;
+  padding: 0.3em 4em;
+  color: black;
+  background-color: rgb(249, 162, 49);
+  border-radius: 0.15em;
+  border: 1px solid rgb(249, 162, 49);
+  font-size: 1.2rem;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.login-button:hover, .login-button:focus {
+  background-color: rgb(52, 53, 51);
+  color: rgb(188, 229, 208);
+}
+
+.Register-text {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 6.5rem;
+}
+
+.Login-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 11rem;
+}
+
+.Login-box {
+  max-width: 450px;
+  background-color: rgb(10, 31, 35);
+  margin: 5rem;
+  border: 1px solid black;
+}
+
+.Password-Label {
+  display: block;
+  color: white;
+  padding: 0.3em 0.3em;
+  margin-left: 4rem;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.Password-Input {
+  color: rgb(216, 130, 126);
+  background-color: rgb(69, 74, 84);
+  border: 2px solid orange;
+  border-radius: 4px;
+  padding: 0.3em 0.8em;
+  margin-left: 4rem;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  width: 73%;
 }
