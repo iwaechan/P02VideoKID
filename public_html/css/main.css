@@ -7,7 +7,7 @@
 body {
   font-family: quann;
   /*padding: 2rem;*/
-  background-color: rgb(37, 48, 54);
+  background-color: rgb(38, 43, 49);
   color: white;
 }
 
@@ -228,6 +228,9 @@ h1 {
 	transition: color 0.5s ease-out;
 }
 
+.bottom-line {
+  border-bottom: 0.1em solid rgb(249, 162, 49);
+}
 
 .nav-main-item {
 	display: inline-block;
@@ -246,10 +249,12 @@ h1 {
 
 /*Styling for Product Listing*/
 .gameList{
-  max-width: 208px;
-  background-color: rgb(10, 31, 35);
-  margin: 2rem;
-  border: 1px solid black;
+  max-width: 420px;
+  background-color: rgb(23, 24, 28);
+  /*margin: 2rem;*/
+  margin-left: 2.5rem;
+  padding: 1em 1em;
+  border: 1px solid rgb(125, 126, 128);
 }
 
 .gameName {
@@ -296,6 +301,11 @@ h1 {
 
 img {
   padding: 0.1rem 0.2rem;
+}
+
+/*border for images*/
+.image-border {
+  border: 1px solid rgb(65, 66, 70);
 }
 
 .Home-Banner {
@@ -408,7 +418,7 @@ img {
 }
 
 .col-4of16 {
-  max-width: 24%;
+  max-width: 25%;
   padding: 1rem 3rem;
 }
 
@@ -496,5 +506,30 @@ img {
 .Featured-Header {
   font-family: "Quann", sans-serif;
   color: orange;
-  padding: 2.25rem 10.5rem;
+  padding: 0.25rem 16rem;
+}
+
+.Featured-subHeader {
+  font-family: "Quann", sans-serif;
+  color: white;
+  margin-top: -2rem;
+  padding: 0rem 16rem;
+}
+
+.Dividing-Line {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgb(67, 77, 84);
+}
+
+.Footer {
+  background-color: rgb(12, 13, 15);
+  margin-top: 10rem;
+  margin-bottom: -2rem;
+  padding: 7rem;
+  font-size: 1.4em;
+}
+
+.Center-FooterP {
+  padding-left: 45rem;
 }
