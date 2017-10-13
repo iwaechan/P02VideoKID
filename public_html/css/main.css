@@ -450,6 +450,11 @@ img {
   padding: 1rem 3rem;
 }
 
+.col-16of16 {
+  max-width: 100%;
+  padding: 1rem 3rem;
+}
+
 .col-pushtocenter{
   max-width: 100%;
   margin-left: 35rem;
@@ -543,6 +548,13 @@ img {
   padding: 0rem 16rem;
 }
 
+.NoBanner-Header {
+  font-family: "Quann", sans-serif;
+  color: orange;
+  padding: 0.25rem 16rem;
+  margin-top: 10rem;
+}
+
 .Dividing-Line {
   margin-top: 2rem;
   margin-bottom: 4rem;
@@ -596,6 +608,11 @@ img {
   margin-left: 16rem;
   border-bottom: 1px solid orange;
   max-width: 73%;
+}
+
+.Store-Para {
+  font-size: 1.3rem;
+  margin-left: 1rem;
 }
 
 
@@ -731,4 +748,50 @@ img {
 .cancel-button:hover, .buy-button:focus {
   background-color: rgb(249, 162, 49);
   color: black;
+}
+
+/*Classes for confirmation.html*/
+
+.return-button {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  margin-left: 45rem;
+  margin-top: 2rem;
+  color: rgb(188, 229, 208);
+  background-color: rgb(35, 35, 35);
+  border-radius: 0.15em;
+  border: 1px solid rgb(249, 162, 49);
+  font-size: 1.2rem;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.return-button:hover, .nav-button:focus {
+  background-color: rgb(249, 162, 49);
+  color: black;
+}
+
+.Confirm-Header {
+  font-family: "Quann", sans-serif;
+  color: rbg(140, 154, 183);
+  padding: 0rem 16rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+  margin-left: 40rem;
+}
+
+.ConfirmPara {
+  font-size: 1.4rem;
+  margin-left: 32rem;
+}
+
+.About-Us{
+  max-width: 1920px;
+  /*background-color: rgb(23, 24, 28);*/
+  /*margin: 2rem;*/
+  margin-left: 1.5rem;
+  margin-top: -1.5rem;
+  padding: 1em;
+  /*border: 1px solid rgb(125, 126, 128);*/
 }
