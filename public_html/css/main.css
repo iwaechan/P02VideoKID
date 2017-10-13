@@ -11,6 +11,19 @@ body {
   color: white;
 }
 
+/*fixes the navigation bar to the top position and stay there forever*/
+	.fixed-navigation {
+		position:fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+  .banner-fix {
+    margin-top: 7.5rem;
+  }
+
 /*Body for the styleguide*/
 .guide{
   font-family: sans-serif;
@@ -509,6 +522,13 @@ img {
 /* ******Below this section is for index.html******* */
 /* ******Below this section is for index.html******* */
 /* ******Below this section is for index.html******* */
+
+.Featured-HeaderBar {
+  font-family: "Quann", sans-serif;
+  color: orange;
+  padding: 0.25rem 16rem;
+  margin-top: 10rem;
+}
 
 .Featured-Header {
   font-family: "Quann", sans-serif;
