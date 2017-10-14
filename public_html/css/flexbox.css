@@ -16,11 +16,14 @@
   -ms-flex-grow:1;
   flex-grow: 1;
 
-  -ms-flex-basis:15em;
-  flex-basis:15em;
-
+  /*-ms-flex-basis:15em;
+  flex-basis:15em;*/
 
 }
+
+
+
+
 
 
 
