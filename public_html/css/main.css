@@ -12,6 +12,7 @@ body {
 }
 
 /*fixes the navigation bar to the top position and stay there forever*/
+/*But it looks weird as you scale the page down*/
 	.fixed-navigation {
 		position:fixed;
 		top: 0;
@@ -268,7 +269,7 @@ h1 {
   background-color: rgb(23, 24, 28);
   /*margin: 2rem;*/
   margin-left: 2.5rem;
-  padding: 5em 5em;
+  padding: 1em 1em;
   border: 1px solid rgb(125, 126, 128);
 }
 
@@ -570,6 +571,7 @@ img {
 }
 
 .Footer {
+  max-width: 100%;
   background-color: rgb(12, 13, 15);
   margin-top: 10rem;
   margin-bottom: -2rem;
