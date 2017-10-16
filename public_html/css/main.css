@@ -1,16 +1,3 @@
-/*Some code are borrowed from Lab files, Lecture materials, and W3Schools.*/
-/*
-  STYLE GUIDE STYLING
-  Default styling for the style guide
-*/
-
-body {
-  font-family: quann;
-  /*padding: 2rem;*/
-  background-color: rgb(38, 43, 49);
-  color: white;
-}
-
 /*fixes the navigation bar to the top position and stay there forever*/
 /*But it looks weird as you scale the page down*/
 	.fixed-navigation {
@@ -21,238 +8,48 @@ body {
 		z-index: 1;
 	}
 
-  .banner-fix {
-    margin-top: 7.5rem;
-    /*position: relative;*/
-  }
-
-/*Body for the styleguide*/
-.guide{
-  font-family: sans-serif;
-  padding: 2rem;
-  background-color: rgb(37, 48, 54);
+body {
+  font-family: "Quann";
+  /*padding: 2rem;*/
+  background-color: rgb(38, 43, 49);
   color: white;
 }
-
-.style-guide{
-  padding:0;
-}
-/*end*/
-
-/*section:not([id]) {
-  margin: 1em 0;
-  padding: 1em 0;
-  border-bottom: 0.15em solid rgb(30, 31, 35);
-}*/
-
 
 h1{
-  padding-left:  2rem;
+  color: orange;
+  margin-left: 1rem;
 }
 
-.on-this-page{
-  padding-left:  2rem;
-}
-
-
-section h2 {
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-
-section h3 {
-  margin-bottom: 0.5em;
-}
-
-section p {
-  margin-top: 0;
-}
-
-/*Dividing Line, Deleting unncessary padding*/
-nav {
-  /*margin-bottom: 1em;
-  padding-bottom: 1em;*/
-  /*border-bottom: 0.15em solid rgb(30, 31, 35);*/
-}
-
-
-
-nav a:hover, nav a:focus {
-  text-decoration: none;
-}
-
-section code {
-  background-color: rgb(20, 21, 35);
-  padding: 0.5em 0.75em;
-  display: block;
-}
-
-ul.citations {
-  margin-left: 0.25em;
-  padding-left: 0.25em;
-}
-
-ul.citations li {
-  list-style-type: none;
-  margin-left: 0;
-  padding-left: 0;
-  padding-bottom: 1em;
-}
-
-ul.citations li strong {
-  font-weight: normal;
-  font-style: italic;
-}
-
-cite {
-  font-style: normal;
-}
-
-
-/*
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-/* Styling for the navigation button */
-.nav-button {
-  display: inline-block;
-  padding: 0.3em 0.8em;
-  margin-left: 2rem;
-  color: rgb(188, 229, 208);
-  background-color: rgb(35, 35, 35);
-  border-radius: 0.15em;
-  border: 1px solid rgb(249, 162, 49);
-  font-size: 1.2rem;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.nav-button:hover, .nav-button:focus {
-  background-color: rgb(249, 162, 49);
-  color: black;
-}
-
-
-/*Styling for in-text link*/
-.in-text {
-  color: rgb(249, 162, 49);
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.in-text:hover, .in-text:focus {
-  color: rgb(172, 239, 202);
-}
-
-
-/*Styling for submit button*/
-.submit {
-  color: rgb(214, 229, 252);
-  background-color: rgb(61, 63, 66);
-  padding: 0.3em 0.9em;
-  border-radius: 0.15em;
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.submit:hover, .submit:focus {
-  background-color: rgb(220, 222, 226);
-  color: black;
-}
-
-
-/*Styling for text-input*/
-.newlabel {
+.p-subHeader{
   color: white;
-  padding: 0.3em 0.3em;
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
+  margin-left: 3rem;
+
+  margin-top: -2rem;
+  padding: 0rem 0rem;
 }
 
-.newinput {
-  color: rgb(216, 130, 126);
-  background-color: rgb(69, 74, 84);
-  border: 2px solid orange;
-  border-radius: 4px;
-  padding: 0.3em 0.8em;
-  font-size: 1.1rem;
-  box-sizing: border-box;
-  width: 100%;
-}
-
-
-/*
-  TEXT ELEMENTS -------------------
-*/
-
-/*Styling for Header1*/
-.newHeader {
-  font-family: "Orbitron", sans-serif;
-  color: rgb(204, 234, 207);
-}
-
-h1 {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-}
-
-
-/*Styling for Paragraph*/
-.newPara {
+.Featured-Header {
   font-family: "Quann", sans-serif;
-  font-size: 1.3em;
-  color: rgb(204, 234, 207);
-}
-
-
-/*Styling for Bullet List*/
-.newBulletList {
-  font-family: "Quann", sans-serif;
-  font-size: 1.2em;
-  color: rgb(204, 234, 207);
-}
-
-
-/*Styling for Number List*/
-.newNumberList {
-  font-family: "Quann", sans-serif;
-  font-size: 1.2em;
-  color: rgb(204, 234, 207);
-}
-
-
-/*
-  COMBINED ELEMENTS -------------------
-*/
-
-/*Styling for Main Navigation Buttons*/
-.newBG {
-  font-family: "Orbitron", sans-serif;
-  color: rgb(204, 234, 207);
-  background-color: green;
+  color: orange;
+	margin-left: 3rem;
+  padding: 0.25rem 0rem;
 }
 
 .nav-home {
-	display: inline-block;
+  display: block;
 	color: white;
-	background-color: rgb(25, 26, 30);
 	font-size: 2.5rem;
-	padding: 2.25rem 10.5rem;
+  /*margin-left: 5rem;*/
+	padding: 1rem 1rem;
 	text-decoration: none;
 	transition: color 0.5s ease-out;
-}
-
-.bottom-line {
-  border-bottom: 0.1em solid rgb(249, 162, 49);
+  /*padding-right: 20rem;*/
 }
 
 .nav-main-item {
-	display: inline-block;
 	color: white;
-	background-color: rgb(25, 26, 30);
 	font-size: 1.2rem;
-	padding: 3rem 0.1rem;
+	padding: 2rem 1rem;
 	text-decoration: none;
 	transition: color 0.5s ease-out;
 }
@@ -262,14 +59,53 @@ h1 {
 }
 
 
-/*Styling for Product Listing*/
+.newBG {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(204, 234, 207);
+  background-color: rgb(25, 26, 30);
+}
+
+.Dividing-Line2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+	margin-right: 3rem;
+  border-bottom: 1px solid orange;
+  max-width: 91.6%;
+
+	display: -ms-flex;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
+.Dividing-Line3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+	margin-right: 3rem;
+  border-bottom: 1px solid gray;
+  max-width: 91.6%;
+
+	display: -ms-flex;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
+
+/*.Full-width{
+  max-width: 120%;
+  padding: 1rem 5rem;
+}*/
+
+
 .gameList{
-  /*display: block;*/
   max-width: 420px;
   background-color: rgb(23, 24, 28);
-  /*margin: 2rem;*/
-  margin-left: 2.5rem;
-  padding: 1em 1em;
+  /*margin-left: 4rem;*/
+	/*margin-right: 3rem;*/
+  /*padding: 1.5em 1.5em;*/
   border: 1px solid rgb(125, 126, 128);
 }
 
@@ -277,10 +113,11 @@ h1 {
   font-family: "Quann", sans-serif;
   font-size: 1.5rem;
   text-align: center;
+	margin-top: 0.5rem;
 }
 
 .gamePrice {
-  font-family: "Quann", sans-serif;
+
   font-size: 1.6rem;
   text-align: center;
   color: rgb(173, 188, 211);
@@ -296,8 +133,6 @@ h1 {
 }
 
 .gameBuyButton {
-  font-family: "Quann", sans-serif;
-  display: inline-block;
   padding: 0.3em 0.8em;
   color: rgb(188, 229, 208);
   background-color: rgb(35, 35, 35);
@@ -315,261 +150,22 @@ h1 {
   color: black;
 }
 
-img {
-  padding: 0.1rem 0.2rem;
+/*Fixes the banner location so it appears below the navigation bar*/
+.banner-fix {
+  margin-top: 7.2rem;
+  /*position: relative;*/
 }
 
-/*border for images*/
-.image-border {
-  display: block;
-  border: 1px solid rgb(65, 66, 70);
-}
-
-.Home-Banner {
-  padding: 0;
-}
-
-
-/*Styling for Grid*/
-.Header-Box{
-  max-width: 100%;
-  padding: 0;
-}
-
-/*grid structure for the main banner on index page*/
-.Banner-Grid{
-  max-width: 100%;
-  margin-top: 0rem;
-}
-
-.banner{
-  max-width: inherit;
-  max-height: inherit;
-}
-
-.grid-header {
-  font-family: "Orbitron", sans-serif;
-	display: inline-block;
-	color: white;
-	background-color: rgb(25, 132, 198);
-	font-size: 2.5rem;
-	padding: 2.25rem 4.5rem;
-  text-align: center;
-
-  /*-ms-flex-grow: wrap;
-  flex-grow: wrap;*/
-}
-
-.Body-Box {
-  max-width: 100%;
-}
-
-.grid-left {
-  font-family: "Orbitron", sans-serif;
-  display: inline-block;
-  color: white;
-  background-color: rgb(25, 32, 198);
-  font-size: 2.5rem;
-  padding: 20.25rem 5.5rem;
-  text-align: center;
-
-  /*-ms-flex-grow: wrap;
-  flex-grow: wrap;*/
-}
-
-.Listing-Box {
-  max-width: 100%;
-}
-
-.grid-middle {
-  font-family: "Orbitron", sans-serif;
-  display: inline-block;
-  color: white;
-  background-color: rgb(25, 132, 98);
-  font-size: 2.5rem;
-  padding: 20.25rem 1.6rem;
-  text-align: center;
-  margin-left: 35px; /*this line makes the gap between grids*/
-
-  /*-ms-flex-grow: wrap;
-  flex-grow: wrap;*/
-}
-
-
-/*Styling for color swatches*/
-.Dark-Grey {
-  max-width: 300px;
-  max-height: 300px;
-  background-color: rgb(25, 26, 30);
-  border: 1px solid white;
-}
-
-.Light-Grey {
-  max-width: 300px;
-  max-height: 300px;
-  background-color: rgb(37, 48, 54);
-  border: 1px solid white;
-}
-
-/*.Neon-Green {
-  max-width: 300px;
-  max-height: 300px;
-  background-color: rgb(11, 196, 94);
-  border: 1px solid white;
-}*/
-
-.Orange {
-  max-width: 300px;
-  max-height: 300px;
-  background-color: rgb(249, 162, 49);
-  border: 1px solid white;
-}
-
-.newText {
-  padding: 1.25rem 1.5rem;
-}
-
-
-
-/*----------------------------------------------------*/
-/*New Section For Templates Only*/
-
-.Full-width{
-  max-width: 100%;
-  padding: 1rem 10.5rem;
-}
-
-.col-2of16 {
-  max-width: 12.5%;
-  padding: 1rem 3rem;
-}
-
-.col-4of16 {
-  max-width: 25%;
-  padding: 1rem 3rem;
-}
-
-.col-8of16 {
-  max-width: 50%;
-  padding: 1rem 3rem;
-}
-
-.col-12of16 {
-  max-width: 75%;
-  padding: 1rem 3rem;
-}
-
-.col-16of16 {
-  max-width: 100%;
-  padding: 1rem 3rem;
-}
-
-.col-pushtocenter{
-  max-width: 100%;
-  margin-left: 35rem;
-}
-
-.login-button {
-  display: inline-block;
-  margin-top: 0.5rem;
-  margin-left: 7.2rem;
-  padding: 0.3em 4em;
-  color: black;
-  background-color: rgb(249, 162, 49);
-  border-radius: 0.15em;
-  border: 1px solid rgb(249, 162, 49);
-  font-size: 1.2rem;
-  text-decoration: none;
-  margin-bottom: 2rem;
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.login-button:hover, .login-button:focus {
-  background-color: rgb(52, 53, 51);
-  color: rgb(188, 229, 208);
-}
-
-.Register-text {
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin-top: 1rem;
-  margin-left: 6.5rem;
-}
-
-.Login-text {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-left: 11rem;
-  margin-top: 1rem;
-}
-
-.Login-box {
-  max-width: 450px;
-  background-color: rgb(10, 31, 35);
-  margin: 5rem;
-  border: 1px solid black;
-}
-
-.Password-Label {
-  display: block;
-  color: white;
-  padding: 0.3em 0.3em;
-  margin-left: 4rem;
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.Password-Input {
-  color: rgb(216, 130, 126);
-  background-color: rgb(69, 74, 84);
-  border: 2px solid orange;
-  border-radius: 4px;
-  padding: 0.3em 0.8em;
-  margin-left: 4rem;
-  font-size: 1.1rem;
-  box-sizing: border-box;
-  width: 73%;
-}
-
-
-/* ******Below this section is for index.html******* */
-/* ******Below this section is for index.html******* */
-/* ******Below this section is for index.html******* */
-
-.Featured-HeaderBar {
+/*Store.html classes goes here*/
+.Store-Header {
   font-family: "Quann", sans-serif;
-  color: orange;
-  padding: 0.25rem 16rem;
-  margin-top: 10rem;
+  color: rbg(140, 154, 183);
+  margin-top: 2.5rem;
+	margin-left: 3rem;
+  margin-bottom: -1rem;
 }
 
-.Featured-Header {
-  font-family: "Quann", sans-serif;
-  color: orange;
-  padding: 0.25rem 16rem;
-}
-
-.Featured-subHeader {
-  font-family: "Quann", sans-serif;
-  color: white;
-  margin-top: -2rem;
-  padding: 0rem 16rem;
-}
-
-.NoBanner-Header {
-  font-family: "Quann", sans-serif;
-  color: orange;
-  padding: 0.25rem 16rem;
-  margin-top: 10rem;
-}
-
-.Dividing-Line {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-  border-bottom: 1px solid rgb(67, 77, 84);
-}
-
+/*Footer classes*/
 .Footer {
   max-width: 100%;
   background-color: rgb(12, 13, 15);
@@ -577,231 +173,5 @@ img {
   margin-bottom: -2rem;
   padding: 7rem;
   font-size: 1.4em;
-}
-
-.Center-FooterP {
   padding-left: 45rem;
-}
-
-
-
-/*Below is the section for AboutUs.html*/
-
-.About-Us{
-  max-width: 820px;
-  /*background-color: rgb(23, 24, 28);*/
-  /*margin: 2rem;*/
-  margin-left: 1.5rem;
-  margin-top: -1.5rem;
-  padding: 1em;
-  /*border: 1px solid rgb(125, 126, 128);*/
-}
-
-.AboutPara {
-  font-size: 1.4rem;
-}
-
-
-/*Below is the section for Store.html*/
-
-.Store-Header {
-  font-family: "Quann", sans-serif;
-  color: rbg(140, 154, 183);
-  padding: 0rem 16rem;
-  margin-top: 4rem;
-  margin-bottom: -1rem;
-}
-
-.Dividing-Line2 {
-  margin-top: 1rem;
-  margin-bottom: -1rem;
-  margin-left: 16rem;
-  border-bottom: 1px solid orange;
-  max-width: 73%;
-}
-
-.Store-Para {
-  font-size: 1.3rem;
-  margin-left: 1rem;
-}
-
-
-/*Below is the section for Checkout.html*/
-
-.ItemParaBox {
-  display: inline-block;
-  font-size: 1.6rem;
-  color: orange;
-  background-color: rgb(51, 55, 63);
-  padding-right: 17rem;
-  margin-bottom: 1rem;
-  padding-left: 1rem;
-}
-
-
-.ItemResultsQty {
-  display: inline-block;
-  font-size: 1.6rem;
-  padding-right: 17rem;
-  margin-bottom: 1rem;
-  padding-left: 0.8rem;
-}
-
-.ItemResultsName {
-  display: inline-block;
-  font-size: 1.6rem;
-  padding-right: 17rem;
-  margin-bottom: 1rem;
-  padding-left: 0rem;
-}
-
-.ItemResultsPrice {
-  display: inline-block;
-  font-size: 1.6rem;
-  padding-right: 17rem;
-  margin-bottom: 1rem;
-  padding-left: 1.7rem;
-}
-
-.SubtotalText {
-  display: inline-block;
-  font-size: 1.2rem;
-  padding-right: 1rem;
-  margin-top: 1rem;
-  margin-left: 37rem;
-  padding-left: 1.7rem;
-}
-
-.SubtotalResult {
-  display: inline-block;
-  font-size: 1.2rem;
-  padding-right: 17rem;
-  margin-bottom: 1rem;
-  padding-left: 1.7rem;
-}
-
-.TaxtotalText {
-  display: inline-block;
-  font-size: 1.2rem;
-  padding-right: 1rem;
-  margin-left: 39rem;
-  padding-left: 1.7rem;
-}
-
-.Dividing-Line3 {
-  margin-top: 1rem;
-  margin-bottom: -1rem;
-  margin-left: 32rem;
-  border-bottom: 1px solid gray;
-  max-width: 50%;
-}
-
-.Dividing-Line4 {
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-  margin-left: 32rem;
-  border-bottom: 1px solid gray;
-  max-width: 50%;
-}
-
-.TotalResult {
-  display: inline-block;
-  font-size: 1.2rem;
-  padding-right: 17rem;
-  padding-left: 1.7rem;
-  margin-top: 1rem;
-}
-
-.CostTotalText {
-  display: inline-block;
-  font-size: 1.2rem;
-  padding-right: 1rem;
-  margin-left: 39rem;
-  padding-left: 1.2rem;
-}
-
-/*Purchase Button*/
-.buy-button {
-  display: inline-block;
-  padding: 0.3em 1em;
-  margin-left: 1rem;
-  color: rgb(188, 229, 208);
-  background-color: rgb(35, 35, 35);
-  border-radius: 0.15em;
-  border: 1px solid rgb(249, 162, 49);
-  font-size: 1.2rem;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.buy-button:hover, .buy-button:focus {
-  background-color: rgb(249, 162, 49);
-  color: black;
-}
-
-/*Cancel Button*/
-.cancel-button {
-  display: inline-block;
-  padding: 0.3em 1em;
-  margin-left: 32rem;
-  color: rgb(188, 229, 208);
-  background-color: rgb(35, 35, 35);
-  border-radius: 0.15em;
-  border: 1px solid rgb(249, 162, 49);
-  font-size: 1.2rem;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.cancel-button:hover, .buy-button:focus {
-  background-color: rgb(249, 162, 49);
-  color: black;
-}
-
-/*Classes for confirmation.html*/
-
-.return-button {
-  display: inline-block;
-  padding: 0.3em 0.8em;
-  margin-left: 45rem;
-  margin-top: 2rem;
-  color: rgb(188, 229, 208);
-  background-color: rgb(35, 35, 35);
-  border-radius: 0.15em;
-  border: 1px solid rgb(249, 162, 49);
-  font-size: 1.2rem;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s, color 0.5s;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.return-button:hover, .nav-button:focus {
-  background-color: rgb(249, 162, 49);
-  color: black;
-}
-
-.Confirm-Header {
-  font-family: "Quann", sans-serif;
-  color: rbg(140, 154, 183);
-  padding: 0rem 16rem;
-  margin-top: 3rem;
-  margin-bottom: -1rem;
-  margin-left: 40rem;
-}
-
-.ConfirmPara {
-  font-size: 1.4rem;
-  margin-left: 32rem;
-}
-
-.About-Us{
-  max-width: 1920px;
-  /*background-color: rgb(23, 24, 28);*/
-  /*margin: 2rem;*/
-  margin-left: 1.5rem;
-  margin-top: -1.5rem;
-  padding: 1em;
-  /*border: 1px solid rgb(125, 126, 128);*/
 }
