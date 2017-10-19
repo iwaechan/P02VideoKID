@@ -165,6 +165,13 @@ h1{
   margin-bottom: -1rem;
 }
 
+/*About Us Paragraph*/
+.AboutPara {
+  font-size: 1.4rem;
+	margin-left: 3rem;
+}
+
+
 /*Footer classes*/
 .Footer {
   max-width: 100%;
