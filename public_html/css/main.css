@@ -264,3 +264,69 @@ h1{
   background-color: rgb(249, 162, 49);
   color: black;
 }
+
+
+/*Below is the section for Checkout.html*/
+
+.ItemParaBox {
+  /*display: inline-block;*/
+  font-size: 1.6rem;
+  color: orange;
+  background-color: rgb(51, 55, 63);
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1.1rem;
+}
+
+
+.ItemResultsQty {
+  display: inline-block;
+  font-size: 1.4rem;
+  /*padding-right: 17rem;
+  margin-bottom: 1rem;
+  padding-left: 0.8rem;*/
+	margin-top: 0.1rem;
+}
+
+.ItemResultsName {
+  display: inline-block;
+  font-size: 1.4rem;
+  /*padding-right: 17rem;
+  margin-bottom: 1rem;
+  padding-left: 0rem;*/
+	margin-top: 0.1rem;
+}
+
+.ItemResultsPrice {
+  display: inline-block;
+  font-size: 1.4rem;
+  /*padding-right: 17rem;
+  margin-bottom: 1rem;
+  padding-left: 1.7rem;*/
+	margin-top: 0.1rem;
+}
+
+.SubtotalText {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
+  margin-left: 37rem;
+  padding-left: 1.7rem;
+}
+
+.SubtotalResult {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding-right: 17rem;
+  margin-bottom: 1rem;
+  padding-left: 1.7rem;
+}
+
+.TaxtotalText {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  margin-left: 39rem;
+  padding-left: 1.7rem;
+}

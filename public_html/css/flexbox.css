@@ -190,6 +190,23 @@ text-align: center;
   width:100%;
 }
 
+.container-7{
+display: -ms-flex;
+display:flex;
+-ms-flex-wrap:wrap;
+flex-wrap: wrap;
+font-size: 1.4em;
+width: 25%;
+/*text-align: center;*/
+/*max-width: 500px;*/
+}
+
+.block-7{
+  margin-left: 6em;
+  -ms-flex-basis:10em;
+  flex-basis:10em;
+}
+
 
 
 
