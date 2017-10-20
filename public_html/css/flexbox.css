@@ -127,9 +127,9 @@ text-align: center;
 	/*
 		For the text, we want it to behave a bit differently, in this case setting an em value for its flex-basis. Using a 1 for the flex-grow value means it weighs less in comparison to our image, and will take less space when possible.
 	*/
-	-webkit-flex: 3 1 18em;
-	-ms-flex: 3 1 18em;
-	flex: 3 1 18em;
+	-webkit-flex: 3 1 50em;
+	-ms-flex: 3 1 50em;
+	flex: 3 1 50em;
   margin-right: 2em;
 }
 
