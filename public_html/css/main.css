@@ -165,6 +165,14 @@ h1{
   margin-bottom: -1rem;
 }
 
+.details-header {
+  font-family: "Quann", sans-serif;
+  color: orange;
+  margin-top: 2.5rem;
+	margin-left: 3rem;
+  margin-bottom: -1rem;
+}
+
 /*About Us Paragraph*/
 .AboutPara {
   font-size: 1.4rem;
