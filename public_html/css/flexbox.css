@@ -143,15 +143,19 @@ text-align: center;
   background-color: rgb(10, 31, 35);
   border: 1px solid black;
   text-align: center;
+  max-height: 100%;
+
 }
 
-/*Navgation Bar*/
+
 .block-5{
   -ms-flex-grow:1;
   flex-grow: 1;
 
   -ms-flex-basis:10em;
   flex-basis:10em;
+
+  padding-bottom: 2rem;
 
   /*margin-left: 3rem;
   margin-right: 3rem;*/
