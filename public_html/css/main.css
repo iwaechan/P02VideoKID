@@ -140,6 +140,7 @@ h1{
   border: 1px solid rgb(249, 162, 49);
   font-size: 1.2rem;
   text-decoration: none;
+	text-align: center;
   margin-left: 66px;
   -webkit-transition: background-color 0.5s, color 0.5s;
   transition: background-color 0.5s, color 0.rgb(249, 162, 49)5s;
@@ -195,7 +196,7 @@ h1{
 .Password-Label {
   color: white;
   padding: 0.3em 0.3em;
-  /*margin-left: 4rem;*/
+  /*margin-left: 1rem;*/
   -webkit-transition: background-color 0.5s, color 0.5s;
   transition: background-color 0.5s, color 0.5s;
 }
@@ -243,4 +244,23 @@ h1{
   font-weight: bold;
   margin-top: 1rem;
   /*margin-left: 6.5rem;*/
+}
+
+.gamePurchaseButton {
+  /*padding: 0.3em 0.8em;*/
+  color: rgb(188, 229, 208);
+  background-color: rgb(35, 35, 35);
+  border-radius: 0.15em;
+  border: 1px solid rgb(249, 162, 49);
+  font-size: 3rem;
+  text-decoration: none;
+	text-align: center;
+  /*margin-left: 66px;*/
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.rgb(249, 162, 49)5s;
+}
+
+.gamePurchaseButton:hover, .gameBuyButton:focus {
+  background-color: rgb(249, 162, 49);
+  color: black;
 }

@@ -144,7 +144,6 @@ text-align: center;
   border: 1px solid black;
   text-align: center;
   max-height: 100%;
-
 }
 
 
@@ -163,13 +162,32 @@ text-align: center;
 
 
 .container-6{
+display: -ms-flex;
+display:flex;
+-ms-flex-wrap:wrap;
+flex-wrap: wrap;
 /*background-color: rgb(12, 13, 15);*/
-margin-top: -5rem;
-margin-bottom: -10rem;
-padding: 7rem;
+margin-top: 2rem;
+/*margin-bottom: -10rem;*/
+/*padding: 7rem;*/
 font-size: 1.4em;
 width: 100%;
 text-align: center;
+/*max-width: 500px;*/
+}
+
+.block-6{
+  /*-ms-flex-grow:1;
+  flex-grow: 1;*/
+  text-align: center;
+  -ms-flex-basis:10em;
+  flex-basis:10em;
+  align-items: center;
+  font-size: 3rem;
+  margin-left: 1em;
+  margin-right: 1em;
+  /*padding:0.3em 5em;*/
+  width:100%;
 }
 
 
