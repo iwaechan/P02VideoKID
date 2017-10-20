@@ -134,6 +134,29 @@ text-align: center;
 }
 
 
+.container-5{
+  display: -ms-flex;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap: wrap;
+  max-width: 100%;
+  background-color: rgb(10, 31, 35);
+  border: 1px solid black;
+  text-align: center;
+}
+
+/*Navgation Bar*/
+.block-5{
+  -ms-flex-grow:1;
+  flex-grow: 1;
+
+  -ms-flex-basis:10em;
+  flex-basis:10em;
+
+  /*margin-left: 3rem;
+  margin-right: 3rem;*/
+}
+
 
 
 

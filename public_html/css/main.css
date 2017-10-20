@@ -182,3 +182,57 @@ h1{
   font-size: 1.4em;
   padding-left: 45rem;
 }
+
+
+.Password-Label {
+  color: white;
+  padding: 0.3em 0.3em;
+  /*margin-left: 4rem;*/
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.Password-Input {
+  color: rgb(216, 130, 126);
+  background-color: rgb(69, 74, 84);
+  border: 2px solid orange;
+  border-radius: 4px;
+  /*padding: 0.3em 0.8em;*/
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  max-width: 30%;
+}
+
+.Login-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  /*margin-top: 1rem;*/
+}
+
+.login-button {
+  /*margin-top: 0.5rem;
+  margin-left: 7.2rem;*/
+  padding: 0.3em 4em;
+  color: black;
+  background-color: rgb(249, 162, 49);
+  border-radius: 0.15em;
+  border: 1px solid rgb(249, 162, 49);
+  font-size: 1.2rem;
+  text-decoration: none;
+  /*margin-bottom: 2rem;*/
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.login-button:hover, .login-button:focus {
+  background-color: rgb(52, 53, 51);
+  color: rgb(188, 229, 208);
+}
+
+.Register-text {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  /*margin-left: 6.5rem;*/
+}
