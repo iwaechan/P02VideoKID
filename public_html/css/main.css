@@ -82,8 +82,8 @@ h1{
 .Dividing-Line3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-left: 3rem;
-	margin-right: 3rem;
+  /*margin-left: 3rem;
+	margin-right: 3rem;*/
   border-bottom: 1px solid gray;
   max-width: 91.6%;
 
@@ -252,7 +252,7 @@ h1{
   background-color: rgb(35, 35, 35);
   border-radius: 0.15em;
   border: 1px solid rgb(249, 162, 49);
-  font-size: 3rem;
+  /*font-size: 3rem;*/
   text-decoration: none;
 	text-align: center;
   /*margin-left: 66px;*/
@@ -329,4 +329,52 @@ h1{
   padding-right: 1rem;
   margin-left: 39rem;
   padding-left: 1.7rem;
+}
+
+
+.buy-button {
+  display: inline-block;
+  padding: 0.3em 1em;
+  /*margin-right: 1rem;*/
+  color: rgb(188, 229, 208);
+  background-color: rgb(35, 35, 35);
+  border-radius: 0.15em;
+  border: 1px solid rgb(249, 162, 49);
+  font-size: 1.2rem;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.buy-button:hover, .buy-button:focus {
+  background-color: rgb(249, 162, 49);
+  color: black;
+}
+
+.cancel-button {
+  display: inline-block;
+  padding: 0.3em 1em;
+  /*margin-left: 32rem;*/
+  color: rgb(188, 229, 208);
+  background-color: rgb(35, 35, 35);
+  border-radius: 0.15em;
+  border: 1px solid rgb(249, 162, 49);
+  font-size: 1.2rem;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.cancel-button:hover, .buy-button:focus {
+  background-color: rgb(249, 162, 49);
+  color: black;
+}
+
+.gameList-2{
+  max-width: 400px;
+  background-color: rgb(23, 24, 28);
+  /*margin-left: 4rem;
+	margin-right: 3rem;
+  padding: 1.5em 1.5em;*/
+  border: 1px solid rgb(125, 126, 128);
 }
