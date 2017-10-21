@@ -1,223 +1,256 @@
-<!-- Some code are borrowed from Lab files, Lecture materials, and W3Schools. -->
-
-<!DOCTYPE html>
 <html>
-
   <head>
-
+    <title>VideoKID - Home Page</title>
     <meta charset="utf-8">
-    <title>VideoKID - Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/flexbox.css">
-
-    <!-- link custom font through google api -->
+    <link href="css/fonts.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900" rel="stylesheet">
-
   </head>
-
   <body>
 
-    <!-- Header Elements with navigation Bar -->
-    <section>
-      <nav class="container fixed-navigation">
-        <a href="index.html" class="nav-home box-item-nav newBG block">VideoKID</a>
-        <a href="store.html" class="nav-main-item box-item-nav newBG block">store</a>
-        <a href="trade.html" class="nav-main-item box-item-nav newBG block">trade market</a>
-        <a href="about-us.html" class="nav-main-item box-item-nav newBG block">about us</a>
-        <a href="account.html" class="nav-main-item box-item-nav newBG block">account</a>
-      </nav>
-    </section>
+  <section>
+    <nav class="container newBG">
+      <a href="index.html" class="nav-home block">VideoKID</a>
+      <a href="store.html" class="nav-main-item block">store</a>
+      <a href="#" class="nav-main-item block">trade market</a>
+      <a href="aboutus.html" class="nav-main-item block">about us</a>
+      <a href="account.html" class="nav-main-item block">account</a>
+    </nav>
+  </section>
 
 
-    <!-- Banner Image -->
-    <div class="container">
-      <img class="block banner-fix banner" src="img/banner.jpg" alt="Metal Gear Solid5">
+    <div class="container-2">
+      <img class="block-2" src="img/banner.jpg" alt="Metal Gear Solid5">
     </div>
 
 
-    <!-- Featured Item section -->
-    <section>
       <h1 class="Featured-Header">FEATURED ITEMS</h1>
-      <p class="Featured-subHeader">See what we are offering today</p>
-
-      <div class="Full-width">
-        <div class="container">
-
-          <div class="container">
-            <section class="gameList block">
-              <img class="image-border" src="img/mgs.jpg" alt="Metal Gear Solid">
-              <p class="gameName">Metal Gear Solid</p>
-              <p class="gamePrice">$9.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
-
-          <div class="container">
-            <section class="gameList block">
-              <img class="image-border" src="img/cuphead.jpg" alt="Cuphead">
-              <p class="gameName">Cuphead</p>
-              <p class="gamePrice">$16.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
-
-          <div class="container">
-            <section class="gameList block">
-              <img class="image-border" src="img/hat.jpg" alt="A hat in time">
-              <p class="gameName">A Hat In Time</p>
-              <p class="gamePrice">$24.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
-
-          <div class="container">
-            <section class="gameList block">
-              <img class="image-border" src="img/pubg.jpg" alt="PlayerUnknown">
-              <p class="gameName">Unknown's Battleground</p>
-              <p class="gamePrice">$29.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
-
-          <div class="container">
-            <section class="gameList block">
-              <img class="image-border" src="img/pubg.jpg" alt="PlayerUnknown">
-              <p class="gameName">Unknown's Battleground</p>
-              <p class="gamePrice">$29.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
-
-
-        </div>
-      </div>
-
-    </section>
-
+      <p class="p-subHeader">See what we are offering today</p>
 
     <!-- Dividing Line -->
-    <section class="Dividing-Line"> </section>
+    <section class="Dividing-Line2"> </section>
 
 
+      <!-- <section class="Full-width"> -->
+      <!-- Featured Item List -->
+       <div class="container">
 
-    <!-- Recently Listed Sections -->
-    <section>
-      <h1 class="Featured-Header">RECENTLY LISTED BY MEMBERS</h1>
-      <p class="Featured-subHeader">Check out what's being sold here right here, right now!</p>
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/evil2.jpg" alt="Evil Within 2">
+            <p class="gameName">The Evil Within 2</p>
+            <p class="gamePrice">$49.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="details.html">BUY</a>
+          </section>
+        </div>
 
-      <div class="Full-width">
-        <div class="container">
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/cuphead.jpg" alt="Cuphead">
+            <p class="gameName">Cuphead</p>
+            <p class="gamePrice">$16.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="details2.html">BUY</a>
+          </section>
+        </div>
 
-          <div class="col-4of16">
-            <section class="gameList">
-              <img class="image-border" src="img/placeholder.jpg" alt="Metal Gear Solid">
-              <p class="gameName">An Evil Within</p>
-              <p class="gamePrice">$19.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/hat.jpg" alt="A hat in time">
+            <p class="gameName">A Hat In Time</p>
+            <p class="gamePrice">$24.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="details.html">BUY</a>
+          </section>
+        </div>
 
-          <div class="col-4of16">
-            <section class="gameList">
-              <img class="image-border" src="img/placeholder.jpg" alt="Metal Gear Solid">
-              <p class="gameName">Silent Hill 2</p>
-              <p class="gamePrice">$7.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/pubg.jpg" alt="PlayerUnknown">
+            <p class="gameName">Unknown's Battleground</p>
+            <p class="gamePrice">$29.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="details.html">BUY</a>
+          </section>
+        </div>
 
-          <div class="col-4of16">
-            <section class="gameList">
-              <img class="image-border" src="img/placeholder.jpg" alt="Metal Gear Solid">
-              <p class="gameName">Counter-Strike</p>
-              <p class="gamePrice">$7.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/bioshock.jpg" alt="PlayerUnknown">
+            <p class="gameName">Bioshock Infinite</p>
+            <p class="gamePrice">$9.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="details.html">BUY</a>
+          </section>
+        </div>
 
-          <div class="col-4of16">
-            <section class="gameList">
-              <img class="image-border" src="img/placeholder.jpg" alt="Metal Gear Solid">
-              <p class="gameName">Day of Defeat</p>
-              <p class="gamePrice">$3.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
-
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/dontstarve.jpg" alt="PlayerUnknown">
+            <p class="gameName">Don't Starve!</p>
+            <p class="gamePrice">$14.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="details.html">BUY</a>
+          </section>
         </div>
       </div>
 
-    </section>
 
-
+    <h1 class="Featured-Header">SPECIAL ITEMS</h1>
+    <p class="p-subHeader">Check out what's on our special menu</p>
 
     <!-- Dividing Line -->
-    <section class="Dividing-Line"> </section>
+    <section class="Dividing-Line2"> </section>
+
+      <!-- Special Items Listed Section -->
+      <div class="container">
+
+       <div class="container-3">
+         <section class="gameList block-3">
+           <img class="image-border" src="img/killingfloor2.jpg" alt="Metal Gear Solid">
+           <p class="gameName">Killing Floor 2</p>
+           <p class="gamePrice">$14.99 CAD</p>
+           <p class="gamePriceLine"> </p>
+           <a class="gameBuyButton" href="#">BUY</a>
+         </section>
+       </div>
+
+       <div class="container-3">
+         <section class="gameList block-3">
+           <img class="image-border" src="img/dino.jpg" alt="Cuphead">
+           <p class="gameName">Dino D-Day</p>
+           <p class="gamePrice">$2.99 CAD</p>
+           <p class="gamePriceLine"> </p>
+           <a class="gameBuyButton" href="#">BUY</a>
+         </section>
+       </div>
+
+       <div class="container-3">
+         <section class="gameList block-3">
+           <img class="image-border" src="img/nier.jpg" alt="A hat in time">
+           <p class="gameName">Nier Automata</p>
+           <p class="gamePrice">$36.99 CAD</p>
+           <p class="gamePriceLine"> </p>
+           <a class="gameBuyButton" href="#">BUY</a>
+         </section>
+       </div>
+
+       <div class="container-3">
+         <section class="gameList block-3">
+           <img class="image-border" src="img/super.jpg" alt="PlayerUnknown">
+           <p class="gameName">Super Meat Boy</p>
+           <p class="gamePrice">$4.99 CAD</p>
+           <p class="gamePriceLine"> </p>
+           <a class="gameBuyButton" href="#">BUY</a>
+         </section>
+       </div>
+
+       <div class="container-3">
+         <section class="gameList block-3">
+           <img class="image-border" src="img/risingstorm.jpg" alt="PlayerUnknown">
+           <p class="gameName">Rising Storm 2</p>
+           <p class="gamePrice">$21.99 CAD</p>
+           <p class="gamePriceLine"> </p>
+           <a class="gameBuyButton" href="#">BUY</a>
+         </section>
+       </div>
+
+       <div class="container-3">
+         <section class="gameList block-3">
+           <img class="image-border" src="img/fallout4.jpg" alt="PlayerUnknown">
+           <p class="gameName">Fallout 4</p>
+           <p class="gamePrice">$19.99 CAD</p>
+           <p class="gamePriceLine"> </p>
+           <a class="gameBuyButton" href="#">BUY</a>
+         </section>
+       </div>
+     </div>
 
 
 
-    <!-- Recently Listed Sections -->
-    <section>
-      <h1 class="Featured-Header">SPECIAL ITEMS</h1>
-      <p class="Featured-subHeader">We have some discounted items for sale</p>
+     <h1 class="Featured-Header">RECENTLY LISTED</h1>
+     <p class="p-subHeader">Browse to see what other members have listed</p>
 
-      <div class="Full-width">
-        <div class="container">
+     <!-- Dividing Line -->
+     <section class="Dividing-Line2"> </section>
 
-          <div class="col-4of16">
-            <section class="gameList">
-              <img class="image-border" src="img/placeholder.jpg" alt="Metal Gear Solid">
-              <p class="gameName">NBA 2016</p>
-              <p class="gamePrice">$7.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
+       <!-- Special Items Listed Section -->
+       <div class="container">
 
-          <div class="col-4of16">
-            <section class="gameList">
-              <img class="image-border" src="img/placeholder.jpg" alt="Metal Gear Solid">
-              <p class="gameName">Killer is Dead</p>
-              <p class="gamePrice">$9.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/stardew.jpg" alt="Metal Gear Solid">
+            <p class="gameName">Stardew Valley</p>
+            <p class="gamePrice">$12.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="#">BUY</a>
+          </section>
+        </div>
 
-          <div class="col-4of16">
-            <section class="gameList">
-              <img class="image-border" src="img/placeholder.jpg" alt="Metal Gear Solid">
-              <p class="gameName">Mirror's Edge</p>
-              <p class="gamePrice">$7.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/megaman.jpg" alt="Cuphead">
+            <p class="gameName">Megaman Legends 2</p>
+            <p class="gamePrice">$6.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="#">BUY</a>
+          </section>
+        </div>
 
-          <div class="col-4of16">
-            <section class="gameList">
-              <img class="image-border" src="img/placeholder.jpg" alt="Metal Gear Solid">
-              <p class="gameName">Last of Us</p>
-              <p class="gamePrice">$14.99 CAD</p>
-              <p class="gamePriceLine"> </p>
-              <a class="gameBuyButton" href="checkout.html">BUY</a>
-            </section>
-          </div>
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/corpseparty.jpg" alt="A hat in time">
+            <p class="gameName">Corpse Party</p>
+            <p class="gamePrice">$8.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="#">BUY</a>
+          </section>
+        </div>
 
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/rust.jpg" alt="PlayerUnknown">
+            <p class="gameName">RUST</p>
+            <p class="gamePrice">$5.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="#">BUY</a>
+          </section>
+        </div>
+
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/sh2.jpg" alt="PlayerUnknown">
+            <p class="gameName">Silent Hill 2</p>
+            <p class="gamePrice">$9.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="#">BUY</a>
+          </section>
+        </div>
+
+        <div class="container-3">
+          <section class="gameList block-3">
+            <img class="image-border" src="img/tothemoon.jpg" alt="PlayerUnknown">
+            <p class="gameName">To The Moon</p>
+            <p class="gamePrice">$4.99 CAD</p>
+            <p class="gamePriceLine"> </p>
+            <a class="gameBuyButton" href="#">BUY</a>
+          </section>
         </div>
       </div>
+
+
+
+    <!-- Footer Part -->
+    <section>
+      <div class="container-4">
+        <p class="block-4">Website designed/created by Tim Chen, JP Octaviano</p>
+      </div>
+    </section>
 
   </body>
 

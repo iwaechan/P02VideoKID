@@ -217,6 +217,35 @@ text-align: center;
   margin-left: 3rem;
 }
 
+.container-8{
+/*background-color: rgb(12, 13, 15);*/
+margin-top: -8rem;
+margin-bottom: -2rem;
+padding: 7rem;
+font-size: 3.4em;
+width: 100%;
+text-align: center;
+}
+
+.block-8{
+  -ms-flex-grow:1;
+  flex-grow: 1;
+  /*max-width: 400px;*/
+  /*background-color: rgb(23, 24, 28);*/
+  /*-ms-flex-basis:10em;
+  flex-basis:10em;*/
+  padding: 1em 1em;
+  margin-left: 1rem;
+  max-width: 100%;
+}
+
+.container-9{
+margin-bottom: -2rem;
+padding: 1rem;
+width: 100%;
+text-align: center;
+}
+
 
 
 
