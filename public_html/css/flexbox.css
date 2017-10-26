@@ -146,6 +146,7 @@ width: 100%;
 	-ms-flex: 1 1 400px;
 	flex: 1 1 400px;
   text-align: center;
+  margin-top: 2em;
   /*max-width: 100%*/
 }
 

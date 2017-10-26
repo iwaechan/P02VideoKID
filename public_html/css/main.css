@@ -180,7 +180,7 @@ h1{
 
 .gameBuyButton {
   padding: 0.3em 0.8em;
-  color: rgb(188, 229, 208);
+  color: white;
   background-color: rgb(35, 35, 35);
   border-radius: 0.15em;
   border: 1px solid rgb(249, 162, 49);
@@ -236,6 +236,10 @@ h1{
   padding: 7rem;
   font-size: 1.4em;
   padding-left: 45rem;
+}
+
+.Plus2 {
+	margin-left: 5rem;
 }
 
 
@@ -294,7 +298,7 @@ h1{
 
 .gamePurchaseButton {
   /*padding: 0.3em 0.8em;*/
-  color: rgb(188, 229, 208);
+  color: white;
   background-color: rgb(35, 35, 35);
   border-radius: 0.15em;
   border: 1px solid rgb(249, 162, 49);
@@ -382,7 +386,7 @@ h1{
   display: inline-block;
   padding: 0.3em 1em;
   /*margin-right: 1rem;*/
-  color: rgb(188, 229, 208);
+  color: white;
   background-color: rgb(35, 35, 35);
   border-radius: 0.15em;
   border: 1px solid rgb(249, 162, 49);
@@ -401,7 +405,7 @@ h1{
   display: inline-block;
   padding: 0.3em 1em;
   /*margin-left: 32rem;*/
-  color: rgb(188, 229, 208);
+  color: white;
   background-color: rgb(35, 35, 35);
   border-radius: 0.15em;
   border: 1px solid rgb(249, 162, 49);
