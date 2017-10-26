@@ -154,10 +154,11 @@ width: 100%;
 	/*
 		For the text, we want it to behave a bit differently, in this case setting an em value for its flex-basis. Using a 1 for the flex-grow value means it weighs less in comparison to our image, and will take less space when possible.
 	*/
-	-webkit-flex: 1 1 300px;
-	-ms-flex: 1 1 300px;
-	flex: 1 1 300px;
+	-webkit-flex: 1 1 400px;
+	-ms-flex: 1 1 400px;
+	flex: 1 1 400px;
   margin-right: 6em;
+  margin-left: 2em;
 }
 
 
