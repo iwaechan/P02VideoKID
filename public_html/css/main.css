@@ -8,6 +8,12 @@
 		z-index: 1;
 	}
 
+	section code {
+  background-color: rgb(20, 21, 35);
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
 body {
   font-family: "Quann";
   /*padding: 2rem;*/
@@ -33,6 +39,21 @@ h1{
   color: orange;
 	margin-left: 3rem;
   padding: 0.25rem 0rem;
+}
+
+.footer-text {
+  display: block;
+	color: rgb(113, 114, 114);
+	font-size: 1.4rem;
+  /*margin-left: 2rem;*/
+	padding: 1.4rem 0rem;
+	text-decoration: none;
+	transition: color 0.5s ease-out;
+  /*padding-right: 20rem;*/
+}
+
+.footer-text:hover, .footer-text:focus {
+  color: rgb(249, 162, 49);
 }
 
 .nav-home {
@@ -65,6 +86,17 @@ h1{
   background-color: rgb(25, 26, 30);
 }
 
+.Side-Line{
+	margin-right: 5rem;
+	border-right: 1px solid gray;
+	max-height: 20.6%;
+
+	display: -ms-flex;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
 .Dividing-Line2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -86,6 +118,20 @@ h1{
 	margin-right: 3rem;*/
   border-bottom: 1px solid gray;
   max-width: 91.6%;
+
+	display: -ms-flex;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap: wrap;
+}
+
+.Dividing-Line4 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  /*margin-left: 3rem;
+	margin-right: 3rem;*/
+  border-bottom: 1px solid gray;
+  max-width: 100%;
 
 	display: -ms-flex;
   display:flex;
@@ -377,4 +423,75 @@ h1{
 	margin-right: 3rem;
   padding: 1.5em 1.5em;*/
   border: 1px solid rgb(125, 126, 128);
+}
+
+/*Additional Styleguide classes*/
+/*Styling for in-text link*/
+.in-text {
+  color: rgb(249, 162, 49);
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.in-text:hover, .in-text:focus {
+  color: rgb(172, 239, 202);
+}
+
+.submit {
+  color: rgb(214, 229, 252);
+  background-color: rgb(61, 63, 66);
+  padding: 0.3em 0.9em;
+  border-radius: 0.15em;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.submit:hover, .submit:focus {
+  background-color: rgb(220, 222, 226);
+  color: black;
+}
+
+.Header1 {
+  font-family: "Quann", sans-serif;
+  color: orange;
+	margin-left: 3rem;
+  padding: 0.25rem 0rem;
+}
+
+/*Styling for color swatches*/
+.Dark-Grey {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(25, 26, 30);
+  border: 1px solid white;
+}
+
+.Light-Grey {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(37, 48, 54);
+  border: 1px solid white;
+}
+
+.Orange {
+  max-width: 300px;
+  max-height: 300px;
+  background-color: rgb(249, 162, 49);
+  border: 1px solid white;
+}
+
+.newText {
+  padding: 1.25rem 1.5rem;
+}
+
+.guide{
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: rgb(37, 48, 54);
+  color: white;
+}
+
+.Style-Header {
+  font-family: "Orbitron", sans-serif;
+  color: orange;
 }
