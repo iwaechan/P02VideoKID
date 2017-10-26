@@ -142,9 +142,10 @@ width: 100%;
 	/*
 		Given we are working with an image, in this case we have set a flex-basis value that is a pixel value to reflect the 'minimum' width of the image before the flexbox reflows and stacks the elements inside. Additionally, the use of a flex-grow value of 3 ensures that our image is 'heavier' (will take up more space) when available.
 	*/
-	-webkit-flex: 1 1 300px;
-	-ms-flex: 1 1 300px;
-	flex: 1 1 300px;
+	-webkit-flex: 1 1 400px;
+	-ms-flex: 1 1 400px;
+	flex: 1 1 400px;
+  text-align: center;
   /*max-width: 100%*/
 }
 
@@ -153,10 +154,10 @@ width: 100%;
 	/*
 		For the text, we want it to behave a bit differently, in this case setting an em value for its flex-basis. Using a 1 for the flex-grow value means it weighs less in comparison to our image, and will take less space when possible.
 	*/
-	-webkit-flex: 3 1 50em;
-	-ms-flex: 3 1 50em;
-	flex: 3 1 50em;
-  margin-right: 2em;
+	-webkit-flex: 1 1 300px;
+	-ms-flex: 1 1 300px;
+	flex: 1 1 300px;
+  margin-right: 6em;
 }
 
 
