@@ -90,11 +90,6 @@ h1{
 	margin-right: 5rem;
 	border-right: 1px solid gray;
 	max-height: 20.6%;
-
-	display: -ms-flex;
-  display:flex;
-  -ms-flex-wrap:wrap;
-  flex-wrap: wrap;
 }
 
 .Dividing-Line2 {
