@@ -57,7 +57,7 @@ h1{
 }
 
 .nav-home {
-  display: block;
+  /*display: block;*/
 	color: white;
 	font-size: 2.5rem;
   /*margin-left: 5rem;*/

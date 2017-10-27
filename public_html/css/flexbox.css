@@ -276,7 +276,7 @@ text-align: center;
 }
 
 
-@media (min-width: 927px) {
+@media (max-width: 1025px) {
 	/*
 		The flexbox 'order' property lets us re-order items	as they are flowed. Smaller values position items closer to the top, or to the left, higher values place them near the end, or to the right. Depending on the orientation of the flexbox flow.
 	*/
@@ -286,7 +286,18 @@ text-align: center;
 		order: 2;
 	}
 
+.block:nth-of-type(1){
+    display: block;
+    margin-right: 1000px;
+    text-align: center;
+  }
+
 }
+
+
+
+
+
 
 
 
