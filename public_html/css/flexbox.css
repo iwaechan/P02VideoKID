@@ -276,7 +276,7 @@ text-align: center;
 }
 
 
-@media (max-width: 1025px) {
+@media (min-width: 927px) {
 	/*
 		The flexbox 'order' property lets us re-order items	as they are flowed. Smaller values position items closer to the top, or to the left, higher values place them near the end, or to the right. Depending on the orientation of the flexbox flow.
 	*/
@@ -285,6 +285,12 @@ text-align: center;
 		-ms-order: 2;
 		order: 2;
 	}
+}
+
+@media (max-width: 1025px) {
+	/*
+		The flexbox 'order' property lets us re-order items	as they are flowed. Smaller values position items closer to the top, or to the left, higher values place them near the end, or to the right. Depending on the orientation of the flexbox flow.
+	*/
 
 .block:nth-of-type(1){
     display: block;
@@ -293,6 +299,8 @@ text-align: center;
   }
 
 }
+
+
 
 
 
